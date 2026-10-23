@@ -1,4 +1,6 @@
-scores = list(map(int, input("Enter scores separated by spaces: ").split()))
+import sys
+
+scores = list(map(int, sys.argv[1:]))
 
 total = sum(scores)
 average = total / len(scores)
