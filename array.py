@@ -5,4 +5,4 @@ average = total / len(scores)
 
 print("Scores:", scores)
 print("Sum:", total)
-print("Average:", average)
+print("Average:", averae)
